@@ -13,7 +13,7 @@ top: 1
 
 Next Generation Static Blog Framework.
 
-Write your first post!
+Write your first post now!
 
 ## Usage
 
