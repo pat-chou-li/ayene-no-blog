@@ -1,3 +1,6 @@
+# 前言
+szly的小站，由valaxy框架搭建，主要用来存储笔记防止丢失，如果以后回到前端，或许会做些优化。
+
 # create-valaxy
 
 Example: [valaxy.site](https://valaxy.site)
