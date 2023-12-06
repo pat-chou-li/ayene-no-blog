@@ -1,13 +1,13 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://pat-chou-li.github.io/',
   lang: 'zh-CN',
   title: 'ayane no blog',
   subtitle: 'Cry to the moon.',
   author: {
     name: '水沢绫音',
-    avatar: '/avatar.jpg'
+    avatar: 'https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg'
   },
   description: '我从来没有觉得学图形学开心过。',
   social: [
@@ -96,7 +96,7 @@ export default defineSiteConfig({
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     title: '我很可爱，请给我钱！',
     methods: [
       // {
