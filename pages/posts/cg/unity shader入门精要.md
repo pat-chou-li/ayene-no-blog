@@ -182,7 +182,7 @@ SHADOW_ATTENUATION：对光源空间中的纹理进行采样，得到阴影信�
 
 RTT是指将渲染生成的图像存储到纹理中（当然，不一定要正常的渲染，比如可以只做深度测试等等，G-buffer的各种信息就是这么生成的），MRT就是可以将渲染的图像存储到多个纹理中，比如一次渲染产生了法线、颜色、深度，可以存储到多个不同的渲染目标上。
 
-#### GrabPass {“TextureName”}
+#### ```GrabPass {“TextureName”}```
 
 在渲染半透明物体的pass前使用，可以将渲染出的屏幕存储到一张纹理中，然后再渲染半透明物体，渲染的时候使用这张纹理来完成折射效果。（当然，要将该pass放在半透明队列中，保证在不透明物体渲染完成后才执行这些pass）
 
@@ -342,9 +342,9 @@ fixed4 frag(v2f i) : SV_Target{
 
 这时候得到的四个向量含有方向和欧氏距离，但是我们得到的线性深度值仅仅代表了z的偏移，而不是相机到某点的绝对距离，因此我们要将z的值转换到欧氏距离，利用相似三角形，以RT为例：
 
-![image-20231005191441260](C:\Users\Patchouli\AppData\Roaming\Typora\typora-user-images\image-20231005191441260.png)
+![image-20231005191441260](./assets/image-20231005191441260.png)
 
-![image-20231005191446013](C:\Users\Patchouli\AppData\Roaming\Typora\typora-user-images\image-20231005191446013.png)
+![image-20231005191446013](./assets/image-20231005191446013.png)
 
 为什么只用计算4个顶点的射线就能插值出中间的任意片元？
 
