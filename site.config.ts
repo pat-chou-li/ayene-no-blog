@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: 'Cry to the moon.',
   author: {
     name: '水沢绫音',
-    avatar: new URL("./resource/avatar.jpg", import.meta.url).href
+    avatar: 'https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg'
   },
   description: '我从来没有觉得学图形学开心过。',
   social: [
