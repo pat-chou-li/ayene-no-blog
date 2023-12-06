@@ -1,5 +1,5 @@
 import { defineConfig } from "vite"
 export default defineConfig({
-    base:"./ayene-no-blog/",
+    base:"./",
     assetsInclude:['**/*.JPG', '**/*.PNG']
 })
