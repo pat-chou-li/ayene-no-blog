@@ -10,6 +10,9 @@ export default defineSiteConfig({
     avatar: 'https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg'
   },
   description: '我从来没有觉得学图形学开心过。',
+  encrypt:{
+    enable:true
+  },
   social: [
     {
       name: 'RSS',
