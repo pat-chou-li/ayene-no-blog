@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ayane no blog</title>
+        <link>https://pat-chou-li.github.io/ayene-no-blog/</link>
+        <description>我从来没有觉得学图形学开心过。</description>
+        <lastBuildDate>Mon, 18 Dec 2023 02:23:14 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>ayane no blog</title>
+            <url>https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg</url>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © 水沢绫音</copyright>
+        <atom:link href="https://pat-chou-li.github.io/ayene-no-blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[论文阅读笔记，各种各样的]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/论文阅读笔记</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/论文阅读笔记</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>nerfren（2022 CVPR）</h2>
+<ul>
+<li>Category：光照反射</li>
+<li>Project: <a href="https://bennyguo.github.io/nerfren/">https://bennyguo.github.io/nerfren/</a></li>
+<li>Code: https</li>
+</ul>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[一些思路]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>可能靠谱但是还没做过实验的思路用</p>
+<ul>
+<li></li>
+</ul>
+<p>标记</p>
+</blockquote>
+<h3>3DGS</h3>
+<p>如何从3DGS中获得法向量？获得之后能不能通过反向梯度下降来对3DGS做法向量的约束，最后得到更好的渲染效果</p>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[nerf和他的快乐伙伴们（AI葵）]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>NeRF-W：nerf in the wild</h3>
+<p>不同照片中可能有会动的物体、或者是不同的时间（光照颜色不同）拍摄</p>
+<p>试图学习那些始终存在的物体，只保留那些不动的物体。</p>
+<p>同时学习到不同时间</p>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[nerf程序码讲解（AI葵）]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h5>dataset</h5>
+<p>现实图片的数据集可以通过colmap重建出位姿，存储在poses_bounds中</p>
+<p>对于模型，blender也可以生成多视角图片</p>
+<h5>输入的图片</h5>
+<p>每一张图片都</p>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[games101]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>Lecture 4</h3>
+<p>MVP矩阵：</p>
+<h4><strong>Model Transformation</strong>：</h4>
+<p>把物体摆好，也就是做顶点从模型空间（局部坐标）到世界空间（世界坐标）的转换</p>
+<h4></h4>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[games103]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h4>Lecture 3</h4>
+<ul>
+<li>向量长度的梯度</li>
+</ul>
+<p><img src="./assets/image-20230916125803787.png" alt="image-20230916125803787"></p>
+<p>其结果等于向</p>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[SRP]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>1. 自定义渲染管线</h3>
+<p><img src="./assets/image-20231014170229647.png" alt="image-20231014170229647"></p>
+<h4>RenderPipeli</h4>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[Unity shader 入门精要]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>第三章</h3>
+<h5>semantic</h5>
+<p><img src="./assets/image-20230928155528032.png" alt="image-20230928155528032"></p>
+<h3>第六章</h3>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+        <item>
+            <title><![CDATA[3D Gaussian Splatting]]></title>
+            <link>https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting</link>
+            <guid>https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting</guid>
+            <pubDate>Mon, 18 Dec 2023 02:22:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>论文本体</h3>
+<h3>算法流程</h3>
+<p><img src="./assets/image-20231209162932395.png" alt="image-20231209162932395"></p>
+<p>总之先摆一个算法流程在</p>
+]]></content:encoded>
+            <author>i@valaxy.site (水沢绫音)</author>
+        </item>
+    </channel>
+</rss>
