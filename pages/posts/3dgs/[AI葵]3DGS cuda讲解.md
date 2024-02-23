@@ -1,7 +1,7 @@
 ---
 title: [AI葵]3DGS cuda讲解
 
-date: 2023.1.19
+date: 2024.1.19
 
 categories: 3D Gaussian Splatting
 
@@ -10,7 +10,6 @@ tags:
  - 图形学
  - NeRF
  - 3DGS
-
 ---
 
 #### 知识点杂记
