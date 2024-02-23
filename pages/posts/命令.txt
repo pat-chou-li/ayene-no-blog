@@ -1,0 +1,2 @@
+视频->图片
+ffmpeg -i 位置 -qscale:v 1 -qmin 1 -vf fps=2 %04d.jpg
