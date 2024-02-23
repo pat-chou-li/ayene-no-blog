@@ -1,5 +1,5 @@
 ---
-title: [AI葵]3DGS cuda讲解
+title: (AI葵)3DGS cuda讲解
 
 date: 2024.01.19
 
