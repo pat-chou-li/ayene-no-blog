@@ -183,3 +183,4 @@ const float MAX_DEPTH = 1000f; // 编译错误
 const float MAX_DEPTH = 1000.0f;
 ```
 
+搜索.cu搜不到的时候可以pip install .中途中断，也可以在设置中搜索scrollback把终端能够留存的行数增加
