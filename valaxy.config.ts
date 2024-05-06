@@ -23,6 +23,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     },
 
+    say : {
+      enable : false
+    }, 
+
     pages: [
       {
         name: '我的小伙伴们',
