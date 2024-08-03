@@ -1,0 +1,206 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "ayane no blog",
+    "home_page_url": "https://pat-chou-li.github.io/ayene-no-blog/",
+    "feed_url": "https://pat-chou-li.github.io/ayene-no-blog/feed.json",
+    "description": "我从来没有觉得学图形学开心过。",
+    "icon": "https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg",
+    "author": {
+        "name": "水沢绫音",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>nerfren（2022 CVPR）</h2>\n<ul>\n<li>Category：光照反射</li>\n<li>Project: <a href=\"https://bennyguo.github.io/nerfren/\">https://bennyguo.github.io/nerfren/</a></li>\n<li>Code: https</li>\n</ul>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/论文阅读笔记",
+            "title": "论文阅读笔记，各种各样的",
+            "date_modified": "2023-11-01T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.787Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Tutorial 1 setup</h2>\n<ul>\n<li>\n<p>使用方法：在python中调用cpp，在cpp中调用cuda</p>\n</li>\n<li>\n<p>哪些时候要用到CUDA，pytorch无法自动实现？</p>\n<ul>\n<li>非平行运算，例如体渲</li>\n</ul>\n</li>\n</ul>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/（AI葵）cuda教学",
+            "title": "（AI葵）cuda教学",
+            "date_modified": "2024-03-03T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.787Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>知识简记</h3>\n<p>3DGS里拿到不错的法线估计是简单的，和椭圆短轴有关，方法来自GaussianShader</p>\n<h3>3DGS</h3>\n<ul>\n<li>如何从3DGS中获得法向量？获得之后能不能通过反向梯度下降来</li>\n</ul>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路",
+            "title": "一些思路或知识简记",
+            "date_modified": "2023-12-09T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.787Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考文献：<a href=\"http://rocyan.top/posts/paper/SMPL.html#_3-4-%E7%BA%BF%E6%80%A7%E6%B7%B7%E5%90%88%E8%92%99%E7%25\">http://rocyan.top/posts/paper/SMPL.html#_3-4-线性混合蒙�%</a></p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/虚拟人前置知识",
+            "title": "虚拟人前置知识",
+            "date_modified": "2024-03-01T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.787Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>直接蒸馏已有特征</h2>\n<p>为表统一，所有附加在GS上的特征，再通过阿尔法合成得到的特征图统一定义为$F$​</p>\n<h3>如何提取pixel-level的特征？</h3>\n<p>CLIP的特征是image-level</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/分割总结",
+            "title": "分割总结",
+            "date_modified": "2024-06-20T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.783Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Editing:</h2>\n<h3>2024：</h3>\n<p>从<a href=\"https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file\">https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file</a></p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文复现记录",
+            "title": "分割论文复现记录",
+            "date_modified": "2024-05-27T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.783Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Feature Splatting: Language-Driven Physics-Based Scene Synthesis and Editing</h2>\n<p>website : https:</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文阅读整理",
+            "title": "分割论文阅读整理",
+            "date_modified": "2024-06-20T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.783Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>2024.3.15</h2>\n<p>首先是发现了psnr在3000次循环时开始下降</p>\n<p>![image-20240315171957416](./assets/image-20240315171957416.</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/实验记录",
+            "title": "实验记录",
+            "date_modified": "2023-11-01T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.783Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>Lecture 4</h3>\n<p>MVP矩阵：</p>\n<h4><strong>Model Transformation</strong>：</h4>\n<p>把物体摆好，也就是做顶点从模型空间（局部坐标）到世界空间（世界坐标）的转换</p>\n<h4></h4>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101",
+            "title": "games101",
+            "date_modified": "2023-09-01T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h4>Lecture 3</h4>\n<ul>\n<li>向量长度的梯度</li>\n</ul>\n<p><img src=\"./assets/image-20230916125803787.png\" alt=\"image-20230916125803787\"></p>\n<p>其结果等于向</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103",
+            "title": "games103",
+            "date_modified": "2023-09-01T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>1. 自定义渲染管线</h3>\n<p><img src=\"./assets/image-20231014170229647.png\" alt=\"image-20231014170229647\"></p>\n<h4>RenderPipeli</h4>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp",
+            "title": "SRP",
+            "date_modified": "2023-10-15T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>第三章</h3>\n<h5>semantic</h5>\n<p><img src=\"./assets/image-20230928155528032.png\" alt=\"image-20230928155528032\"></p>\n<h3>第六章</h3>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要",
+            "title": "Unity shader 入门精要",
+            "date_modified": "2023-09-29T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>NeRF-W：nerf in the wild</h3>\n<p>不同照片中可能有会动的物体、或者是不同的时间（光照颜色不同）拍摄</p>\n<p>试图学习那些始终存在的物体，只保留那些不动的物体。</p>\n<p>同时学习到不同时间</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们",
+            "title": "nerf和他的快乐伙伴们（AI葵）",
+            "date_modified": "2023-10-25T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h5>dataset</h5>\n<p>现实图片的数据集可以通过colmap重建出位姿，存储在poses_bounds中</p>\n<p>对于模型，blender也可以生成多视角图片</p>\n<h5>输入的图片</h5>\n<p>每一张图片都</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解",
+            "title": "nerf程序码讲解（AI葵）",
+            "date_modified": "2023-10-19T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.735Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>论文本体</h2>\n<h4>Adaptive Control of Gaussians</h4>\n<p>一些超参数：</p>\n<p>warm-up后启用：指500次迭代后开始，因为一开始用1/4分辨率训练，250次迭代后做一</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting",
+            "title": "3D Gaussian Splatting",
+            "date_modified": "2023-12-09T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.431Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h4>知识点杂记</h4>\n<ul>\n<li>\n<p>一个3dgs训练结果的网站：gsplat.tech</p>\n</li>\n<li>\n<p>为什么3DGS重建室内场景的时候，墙壁会出现雾状</p>\n</li>\n</ul>\n<p>墙壁通常是白色且没有纹理的，3DGS很难确认深度和几何，所以</p>\n",
+            "url": "https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/[AI葵]3DGS cuda讲解",
+            "title": "(AI葵)3DGS cuda讲解",
+            "date_modified": "2024-01-19T00:00:00.000Z",
+            "date_published": "2024-08-03T11:27:00.431Z",
+            "author": {
+                "name": "水沢绫音",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
