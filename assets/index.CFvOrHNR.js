@@ -1,0 +1,1 @@
+import"./chunks/@vueuse/motion.cWR7Fj8M.js";import{A as s}from"./app.CKkfMgpm.js";import"./chunks/dayjs.CCYrSalk.js";import"./animation.D00aV5qs.js";const e="/ayene-no-blog/assets/none.DLM1AMsD.jpg";function p(t,r=e){const o=t.target;o.setAttribute("data-src",o.src),o.src=r}function c(t){return s(t,{template:"YYYY-MM-DD HH:mm:ss"})}export{c as f,p as o};
