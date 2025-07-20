@@ -14,7 +14,7 @@ tags:
 
 ## 一. LLM训练流程
 
-![alt text](https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/4-figures/2-0.jpg)
+![alt text](./assets/2-0.jpg)
 
 训练出LLM一般需要经过Pretrain、SFT、RLHF三个阶段。
 
@@ -70,11 +70,11 @@ NSP：输入两个句子，判断是否构成上下文。
 
 大模型的显存开销显然是单张GPU无法接受的，在实践中，需要将模型参数、模型梯度、Adam状态参数等等进行分片，例如可以将两个batch放到两张gpu上，然后通过通信共享梯度，完成类似batch_size的并行训练，被称为**Data Parallelism（数据并行）**：
 
-<img src="https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/4-figures/2-1.jpg" alt="alt text" style="zoom: 67%;" />
+<img src="./assets/2-1.jpg" alt="alt text" style="zoom: 67%;" />
 
 例如将模型参数本身放到不同的GPU上：
 
-<img src="https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/4-figures/2-2.jpg" alt="alt text" style="zoom:50%;" />
+<img src="./assets/2-2.jpg" alt="alt text" style="zoom:50%;" />
 
 显而易见的，越是高的分片，带来越高的通信开销，因此哪些内容适合分片，哪些内容适合所有GPU上对齐。
 
@@ -130,7 +130,7 @@ input : {
 
 ##### Adapter Tuning
 
-![alt text](https://raw.githubusercontent.com/datawhalechina/happy-llm/main/docs/images/6-images/3-1.png)
+![alt text](./assets/3-1.png)
 
 在transformer层之间插入一个小型adapter，冻结原有参数，仅训练这些参数。Feedforwarddown-project会将输入维度大幅降低，并在输出时还原。
 
@@ -138,9 +138,9 @@ input : {
 
 原文：https://arxiv.org/pdf/2106.09685
 
-![image-20250720224305641](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250720224305641.png)
+![image-20250720224305641](./assets/image-20250720224305641.png)
 
-![image-20250720224441025](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20250720224441025.png)
+![image-20250720224441025](./assets/image-20250720224441025.png)
 
 如果仅有左侧的模型，就是全量微调。
 
