@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <title i18n="i18n.title">管理平台登录</title>
+    <link rel="shortcut icon" href="./static/images/favicon.ico">
+    <script type="text/javascript" src="./static/js/jquery.min.js?v=0.1.1"></script>
+    <script type="text/javascript" src="./static/js/jquery.i18n.min.js?v=0.1.1"></script>
+    <script type="text/javascript" src="//wwcdn.weixin.qq.com/node/wework/wwopen/js/wwLogin-1.2.7.js"></script>
+    <link href="./static/css/normalize.css?v=0.1.1" type="text/css" rel="stylesheet"/>
+    <link href="./static/css/login.css?v=0.1.2" type="text/css" rel="stylesheet"/>
+    <link href="./static/css/modal.css?v=0.1.1" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+
+<div class="login-content">
+    <div class="login-title">
+        <img src="./static/images/logo@2x.png?v=0.1.1" alt="" class="login-logo">
+        <span class="login-logo-text" i18n="i18n.logoText">管理平台</span></div>
+    </div>
+    <div class="btns">
+        <div class="choose-qrcode" >
+            <div i18n="i18n.scanCode"  onclick="qrcodeLogin(this)" >扫码登录</div>
+            <div class="choose-qrcode-under"></div>
+        </div>
+        <div class="choose-account" >
+            <div i18n="i18n.accontLogin" onclick="accontLogin(this)"  >账号密码登录</div>
+            <div class="choose-account-under"></div>
+        </div>
+    </div>
+    <div class="login-form" id="qrcode-content"
+         style="height: 400px; margin-top: 60px; ">
+        <div style="position: relative;height: 500px;">
+            <div id="qrcode" ></div>
+            <div id="qrcode-timeout" >
+                <div onclick="qrcodeLogin()" class="qrcode-timeout-reload"></div>
+                <div i18n="i18n.qrcodeTip" style="color: white; text-align: center;">二维码失效<br>请刷新后扫码</div>
+            </div>
+        </div>
+    </div>
+    <div class="login-form" id="account-content" style="display: none;">
+        <div class="form-list">
+            <div id="login-form">
+                <p style="font-size: 12px;color: #f00;font-weight: bold;text-align: center" i18n="i18n.loginTip1">
+                    请使用域账号（用户名、密码与OA系统一致）登录！
+                </p>
+                <div class="item-input" style="margin-top: -8px">
+                    <span class="input-icon icon-user"></span>
+                    <div class="input-control">
+                        <input type="text" value="" name="username" placeholder="用户名" autocomplete="off"
+                               i18n="i18n.username"/>
+                    </div>
+                </div>
+                <div class="item-input">
+                    <span class="input-icon icon-password"></span>
+                    <div class="input-control">
+                        <input type="password" value="" name="password" placeholder="密码" autocomplete="off"
+                               i18n="i18n.password"/>
+                    </div>
+                </div>
+                <div class="item-input">
+                    <span class="input-icon icon-code"></span>
+                    <div class="input-control">
+                        <input type="text" value="" name="token" placeholder="口令" maxlength="8"
+                               autocomplete="one-time-code" i18n="i18n.command"/>
+                    </div>
+                </div>
+                <div class="item-link">
+                    <a href="https://pwd.bilibili.co" class="resetpwd" target="_blank" i18n="i18n.resetPassword">&nbsp;重置密码</a>
+                    <a href="https://dashboard-mng.biliapi.net/bilitotp/static/pdf/bilibili-totp-help.pdf" class="reset-token-doc" i18n="i18n.resetTokenDoc">重置口令文档&nbsp;</a>
+                </div>
+                <div class="item-button">
+                    <button class="login-submit" i18n="i18n.login">登录</button>
+                </div>
+            </div>
+            <p class="login-tip" i18n="i18n.loginTip2">未绑定令牌用户,请输入正确的“用户名”、“密码”后,点击“登录”进行令牌绑定</p>
+        </div>
+    </div>
+    <div class="bulletin-board">
+        <div i18n="i18n.problemTip" class="content">
+            如有问题请联系 @安全小哥
+        </div>
+    </div>
+</div>
+
+<div class="loading-wrapper">
+    <div class="loading-content">
+        <span class="loading-icon"></span>
+        <p i18n="i18n.loadingTip" class="tip">正在跳转...</p>
+    </div>
+</div>
+<script type="text/template" id="stepTemplate">
+    <p class="token-tip">If you are non-technical, you can get passcode from the One-time Password application in wecom</p>
+    <p class="token-tip">你的账号尚未绑定令牌,请按照以下步骤进行令牌绑定</p>
+    <p class="token-step">1.扫描下方二维码下载手机客户端(请根据手机系统选择;如果已经安装请忽略此步骤)</p>
+    <p class="token-client-code">
+            <span class="token-client-android">
+                <span class="token-part-android"></span><br>
+                安卓客户端
+            </span>
+        <span class="token-client-ios">
+                <span class="token-part-ios"></span><br>
+                iOS客户端
+            </span>
+    </p>
+    <p class="token-step">2.使用客户端扫描下方二维码或手动输入密钥进行令牌绑定</p>
+    <div class="token-code">
+        <div class="token-img"></div>
+    </div>
+    <p class="token-step token-step3 color-red"><span>完成令牌绑定后，请立即关闭弹窗进行登录操作以激活令牌</span><br/>未激活令牌将无法使用令牌登录相关管理平台（如：gitlab、project等）
+    </p>
+    <div class="client-sy">
+        GoogleAuthenticator客户端使用方法：<br/>
+        1、点击客户端右上角“+”按钮，选择令牌绑定方式（扫描二维码\手动输入）<br/>
+        2、账号名称可自定义输入<br/>
+        3、完成令牌绑定后，即可看到当前时间的口令（每分钟刷新）<br/>
+        4、使用令牌时请<span class="color-red">保持手机时间与北京时间一致</span>
+    </div>
+</script>
+<script>
+    let lang = navigator.language.toLowerCase()
+    $("[i18n]").i18n({
+        defaultLang: (lang == "zh-cn" || lang == "zh") ? "zh-CN" : "en",
+        filePath: "/i18n/", //注意！要配置好语言文件的正确路径
+        filePrefix: "i18n_",
+        fileSuffix: "",
+        forever: true,
+        callback: function () {
+        }
+    });
+</script>
+<script type="text/javascript" src="./static/js/jquery.qrcode.min.js?v=0.2.1"></script>
+<script type="text/javascript" src="./static/js/modal.js?v=0.2.1"></script>
+<script type="text/javascript" src="./static/js/jsencrypt.js?v=0.2.1"></script>
+<script type="text/javascript" src="./static/js/login.js?v=0.2.8"></script>
+</body>
+</html>
