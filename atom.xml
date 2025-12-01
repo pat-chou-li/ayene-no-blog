@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pat-chou-li.github.io/ayene-no-blog/</id>
+    <title>ayane no blog</title>
+    <updated>2025-12-01T09:07:48.036Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>水沢绫音</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://pat-chou-li.github.io/ayene-no-blog/"/>
+    <link rel="self" href="https://pat-chou-li.github.io/ayene-no-blog/atom.xml"/>
+    <subtitle>我从来没有觉得学图形学开心过。</subtitle>
+    <logo>https://raw.githubusercontent.com/pat-chou-li/ayene-no-blog/main/resource/avatar.jpg</logo>
+    <icon>https://pat-chou-li.github.io/ayene-no-blog/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © 水沢绫音</rights>
+    <entry>
+        <title type="html"><![CDATA[LLM相关]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/LLM相关</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/LLM相关"/>
+        <updated>2025-07-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>一. LLM训练流程</h2>
+<p><img src="./assets/2-0.jpg" alt="alt text"></p>
+<p>训练出LLM一般需要经过Pretrain、SFT、RLHF三个阶段。</p>
+<p>pretrain</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/LLM相关" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/LLM相关</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-07-20T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[周记]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>小需求</h2>
+<h3>续播时增加从头播放能力</h3>
+<p>在播放器自动定位至xx秒时，提供一个”从头播放“按钮，触发seek：0事件</p>
+<h3>弹幕举报面板更新</h3>
+<p>播放页负责写iframe，播</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[周记]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记（鹅）</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记（鹅）"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>command mode实现编辑</h3>
+<p>背景：产品希望支持编辑的redo、undo，因此需要设计数据结构以记忆过去行为</p>
+<p>实现：</p>
+<ul>
+<li>定义ICommand接口，每个具体命令需要实</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记（鹅）" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/周记（鹅）</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日记]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/日记</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/日记"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>简记</h1>
+<h2>常用命令</h2>
+<p>Link to test danmaku</p>
+<pre><code class="language-powershell">pnpm link @bilibili-player/danmaku-x --d</code></pre>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/日记" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/日记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[面经]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/面经</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/面经"/>
+        <updated>2024-11-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>腾讯 游戏数据 一面</h2>
+<ul>
+<li>面试官自我介绍</li>
+<li>自我介绍</li>
+<li>简历内容
+<ul>
+<li>论文</li>
+<li>用过ant x v6？渲染原理看过没.</li>
+<li>canvas和svg的区别，canva</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/面经" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/面经</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-11-19T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bilibili_danmaku_princess 制作流程]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/bilibili_danmaku_princess</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/bilibili_danmaku_princess"/>
+        <updated>2024-11-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>总之先找到所有bilibili 直播相关api</p>
+<p><a href="https://github.com/SocialSisterYi/bilibili-API-collect/tree/master">https://github.com/SocialSisterYi/bilibili-API-collect/tree/master</a></p>
+<h1></h1>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/bilibili_danmaku_princess" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/bilibili_danmaku_princess</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-11-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[前端知识简记]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/前端/前端知识简记</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/前端知识简记"/>
+        <updated>2024-11-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>html</h2>
+<h3>html语义化标签</h3>
+<p><img src="./assets/6f758737688c8902f28848430e245872.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>Heade</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/前端/前端知识简记" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/前端/前端知识简记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-11-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分割总结]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/分割总结</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割总结"/>
+        <updated>2024-06-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>直接蒸馏已有特征</h2>
+<p>为表统一，所有附加在GS上的特征，再通过阿尔法合成得到的特征图统一定义为$F$​</p>
+<h3>如何提取pixel-level的特征？</h3>
+<p>CLIP的特征是imag</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割总结" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/分割总结</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-20T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分割论文阅读整理]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文阅读整理</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文阅读整理"/>
+        <updated>2024-06-20T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Feature Splatting: Language-Driven Physics-Based Scene Synthesis and Editing</h2>
+<p>website : h</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文阅读整理" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文阅读整理</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-06-20T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[分割论文复现记录]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文复现记录</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文复现记录"/>
+        <updated>2024-05-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Editing:</h2>
+<h3>2024：</h3>
+<p>从<a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov">https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov</a></p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文复现记录" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/分割论文复现记录</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-05-27T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[（AI葵）cuda教学]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/（AI葵）cuda教学</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/（AI葵）cuda教学"/>
+        <updated>2024-03-03T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Tutorial 1 setup</h2>
+<ul>
+<li>
+<p>使用方法：在python中调用cpp，在cpp中调用cuda</p>
+</li>
+<li>
+<p>哪些时候要用到CUDA，pytorch无法自动实现？</p>
+<ul>
+<li>非平行</li>
+</ul>
+</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/（AI葵）cuda教学" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/（AI葵）cuda教学</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-03-03T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[虚拟人前置知识]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/虚拟人前置知识</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/虚拟人前置知识"/>
+        <updated>2024-03-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>参考文献：<a href="http://rocyan.top/posts/paper/SMPL.html#_3-4-%E7%BA%BF%E6%80%A7%E6%B7%B7%E5%90%88%E8%92%99%E7">http://rocyan.top/posts/paper/SMPL.html#_3-4-线性混合蒙�</a></p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/虚拟人前置知识" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/虚拟人前置知识</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-03-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(AI葵)3DGS cuda讲解]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/[AI葵]3DGS cuda讲解</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/[AI葵]3DGS cuda讲解"/>
+        <updated>2024-01-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h4>知识点杂记</h4>
+<ul>
+<li>
+<p>一个3dgs训练结果的网站：gsplat.tech</p>
+</li>
+<li>
+<p>为什么3DGS重建室内场景的时候，墙壁会出现雾状</p>
+</li>
+</ul>
+<p>墙壁通常是白色且没有纹理的，3DGS很难确认深</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/[AI葵]3DGS cuda讲解" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/[AI葵]3DGS cuda讲解</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-01-19T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3D Gaussian Splatting]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting"/>
+        <updated>2023-12-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>论文本体</h2>
+<h4>Adaptive Control of Gaussians</h4>
+<p>一些超参数：</p>
+<p>warm-up后启用：指500次迭代后开始，因为一开始用1/4分辨率训练，25</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/3dgs/3D Gaussian Splatting</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-12-09T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些思路或知识简记]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路"/>
+        <updated>2023-12-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>知识简记</h3>
+<p>3DGS里拿到不错的法线估计是简单的，和椭圆短轴有关，方法来自GaussianShader</p>
+<h3>3DGS</h3>
+<ul>
+<li>如何从3DGS中获得法向量？获得之后能不能通过</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/随笔/一些思路</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-12-09T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[实验记录]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/实验记录</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/实验记录"/>
+        <updated>2023-11-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>2024.3.15</h2>
+<p>首先是发现了psnr在3000次循环时开始下降</p>
+<p>![image-20240315171957416](./assets/image-2024031517195</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/实验记录" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/实验记录</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-11-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[论文阅读笔记，各种各样的]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/论文阅读笔记</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/论文阅读笔记"/>
+        <updated>2023-11-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>nerfren（2022 CVPR）</h2>
+<ul>
+<li>Category：光照反射</li>
+<li>Project: <a href="https://bennyguo.github.io/nerfren/">https://bennyguo.github.io/nerfren/</a></li>
+<li>Code:</li>
+</ul>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/论文阅读笔记" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/论文阅读笔记</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-11-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nerf和他的快乐伙伴们（AI葵）]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们"/>
+        <updated>2023-10-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>NeRF-W：nerf in the wild</h3>
+<p>不同照片中可能有会动的物体、或者是不同的时间（光照颜色不同）拍摄</p>
+<p>试图学习那些始终存在的物体，只保留那些不动的物体。</p>
+<p>同时</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf与它的快乐伙伴们</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-10-25T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nerf程序码讲解（AI葵）]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解"/>
+        <updated>2023-10-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h5>dataset</h5>
+<p>现实图片的数据集可以通过colmap重建出位姿，存储在poses_bounds中</p>
+<p>对于模型，blender也可以生成多视角图片</p>
+<h5>输入的图片</h5>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/nerf/AI葵/nerf程序码讲解</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-10-19T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SRP]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp"/>
+        <updated>2023-10-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>1. 自定义渲染管线</h3>
+<p><img src="./assets/image-20231014170229647.png" alt="image-20231014170229647"></p>
+<h4>RenderP</h4>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/cg/srp</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-10-15T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unity shader 入门精要]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要"/>
+        <updated>2023-09-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>第三章</h3>
+<h5>semantic</h5>
+<p><img src="./assets/image-20230928155528032.png" alt="image-20230928155528032"></p>
+<h3></h3>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/cg/unity shader入门精要</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-09-29T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[games101]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101"/>
+        <updated>2023-09-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>Lecture 4</h3>
+<p>MVP矩阵：</p>
+<h4><strong>Model Transformation</strong>：</h4>
+<p>把物体摆好，也就是做顶点从模型空间（局部坐标）到世界空间（世界坐标）的转换</p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games101</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-09-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[games103]]></title>
+        <id>https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103</id>
+        <link href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103"/>
+        <updated>2023-09-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h4>Lecture 3</h4>
+<ul>
+<li>向量长度的梯度</li>
+</ul>
+<p><img src="./assets/image-20230916125803787.png" alt="image-20230916125803787"></p>
+<br/><p>访问 <a href="https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103" target="_blank">https://pat-chou-li.github.io/ayene-no-blog/posts/cg/games103</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>水沢绫音</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-09-01T00:00:00.000Z</published>
+    </entry>
+</feed>
